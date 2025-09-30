@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Planets</title>
-</head>
+<head><title>Planets</title></head>
 <body>
     <h1>Planets</h1>
     <ul>
