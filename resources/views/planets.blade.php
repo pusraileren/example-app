@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head><title>Planets</title></head>
-<body>
-    <h1>Planets</h1>
-    <ul>
-        @foreach($planets as $planet)
-            <li>
-                <strong>{{ $planet['name'] }}</strong><br>
-                {{ $planet['description'] }}
-            </li>
-        @endforeach
-    </ul>
-</body>
-</html>
+<h1>Alle planeten</h1>
+<ul>
+    @foreach($planeten as $p)
+        <li>{{ $p['name'] }} - {{ $p['description'] }}</li>
+    @endforeach
+</ul>
+<h1>{{ $planeet['name'] }}</h1>
+<p>{{ $planeet['description'] }}</p>
